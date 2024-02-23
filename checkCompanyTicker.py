@@ -67,8 +67,8 @@ for idx, row in df.iterrows():
 
     if idx % 10 == 0:
         df_to = pd.DataFrame(list_t)
-        df_to.to_csv('TorontoCompanies.csv')
+        df_to.to_csv(os.path.join('data', 'TorontoCompanies.csv'))
 
         df_v = pd.DataFrame(list_v)
-        df_v.to_csv('VancouverCompanies.csv')
+        df_v.to_csv(os.path.join('data', 'VancouverCompanies.csv'))
 
