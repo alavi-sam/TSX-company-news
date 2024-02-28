@@ -1,0 +1,602 @@
+,CompanyName,Ticker
+0,Aldebaran Resources Inc.,ALDE.V
+1,Lumina Gold Corp.,LUM.V
+2,Regulus Resources Inc.,REG.V
+3,Minera Alamos Inc.,MAI.V
+4,Amex Exploration Inc.,AMX.V
+5,G2 Goldfields Inc.,GTWO.V
+6,Emerita Resources Corp.,EMO.V
+7,ATEX Resources Inc.,ATX.V
+8,Laurion Mineral Exploration Inc.,LME.V
+9,Orogen Royalties Inc.,OGN.V
+10,Chesapeake Gold Corp.,CKG.V
+11,Doubleview Gold Corp.,DBG.V
+12,Hot Chili Limited,HCH.V
+13,Banyan Gold Corp.,BYN.V
+14,Rio2 Limited,RIO.V
+15,Thesis Gold Inc.,TAU.V
+16,Integra Resources Corp.,ITR.V
+17,Andean Precious Metals Corp.,APM.V
+18,Guanajuato Silver Company Ltd.,GSVR.V
+19,Magna Mining Inc.,NICU.V
+20,NorthIsle Copper and Gold Inc.,NCX.V
+21,Goliath Resources Limited,GOT.V
+22,Skyharbour Resources Ltd.,SYH.V
+23,Sailfish Royalty Corp.,FISH.V
+24,Minaurum Gold Inc.,MGG.V
+25,Teuton Resources Corp.,TUO.V
+26,Founders Metals Inc.,FDR.V
+27,Azimut Exploration Inc.,AZM.V
+28,Great Pacific Gold Corp.,GPAC.V
+29,Majestic Gold Corp.,MJS.V
+30,Northern Superior Resources Inc.,SUP.V
+31,Gowest Gold Ltd.,GWA.V
+32,Eskay Mining Corp.,ESK.V
+33,Spanish Mountain Gold Ltd.,SPA.V
+34,Aurion Resources Ltd.,AU.V
+35,Brixton Metals Corporation,BBB.V
+36,Radisson Mining Resources Inc.,RDS.V
+37,Blackrock Silver Corp.,BRC.V
+38,Condor Resources Inc.,CN.V
+39,Cerrado Gold Inc.,CERT.V
+40,Sierra Madre Gold and Silver Ltd.,SM.V
+41,Soma Gold Corp.,SOMA.V
+42,West Vault Mining Inc.,WVM.V
+43,Scottie Resources Corp.,SCOT.V
+44,Kootenay Silver Inc.,KTN.V
+45,Aftermath Silver Ltd.,AAG.V
+46,Silver Storm Mining Ltd.,SVRS.V
+47,Summa Silver Corp.,SSVR.V
+48,Metallic Minerals Corp.,MMG.V
+49,American Creek Resources Ltd.,AMK.V
+50,Heliostar Metals Ltd.,HSTR.V
+51,Adventus Mining Corporation,ADZN.V
+52,Pasofino Gold Limited,VEIN.V
+53,Outcrop Silver & Gold Corporation,OCG.V
+54,Lavras Gold Corp.,LGC.V
+55,Monument Mining Limited,MMY.V
+56,White Gold Corp.,WGO.V
+57,Trigon Metals Inc.,TM.V
+58,Alpha Exploration Ltd.,ALEX.V
+59,North Peak Resources Ltd.,NPR.V
+60,Mirasol Resources Ltd.,MRZ.V
+61,Nicola Mining Inc.,NIM.V
+62,Roscan Gold Corporation,ROS.V
+63,Southern Silver Exploration Corp.,SSV.V
+64,Luca Mining Corp.,LUCA.V
+65,Silver One Resources Inc.,SVE.V
+66,Tinka Resources Limited,TK.V
+67,IMPACT Silver Corp.,IPT.V
+68,Silver X Mining Corp.,AGX.V
+69,Tectonic Metals Inc.,TECT.V
+70,Kenorland Minerals Ltd.,KLD.V
+71,Independence Gold Corp.,IGO.V
+72,Revival Gold Inc.,RVG.V
+73,Benz Mining Corp.,BZ.V
+74,Vanstar Mining Resources Inc.,VSR.V
+75,C3 Metals Inc.,CCCM.V
+76,Red Pine Exploration Inc.,RPX.V
+77,Kodiak Copper Corp.,KDK.V
+78,Cabral Gold Inc.,CBR.V
+79,Bear Creek Mining Corporation,BCM.V
+80,Bunker Hill Mining Corp.,BNKR.V
+81,Cassiar Gold Corp.,GLDC.V
+82,Benton Resources Inc.,BEX.V
+83,Luminex Resources Corp.,LR.V
+84,Blue Star Gold Corp.,BAU.V
+85,Empress Royalty Corp.,EMPR.V
+86,Reyna Silver Corp.,RSLV.V
+87,Barksdale Resources Corp.,BRO.V
+88,Resouro Strategic Metals Inc.,RSM.V
+89,Stillwater Critical Minerals Corp.,PGE.V
+90,Cartier Resources Inc.,ECR.V
+91,Northwest Copper Corp.,NWST.V
+92,Midland Exploration Inc.,MD.V
+93,Bluestone Resources Inc.,BSR.V
+94,Denarius Metals Corp.,DSLV.V
+95,Westhaven Gold Corp.,WHN.V
+96,Arizona Gold & Silver Exploration Inc.,AZS.V
+97,Falco Resources Ltd.,FPC.V
+98,Cordoba Minerals Corp.,CDB.V
+99,Altamira Gold Corp.,ALTA.V
+100,Callinex Mines Inc.,CNX.V
+101,TDG Gold Corp.,TDG.V
+102,Galway Metals Inc.,GWM.V
+103,Goldshore Resources Inc.,GSHR.V
+104,HighGold Mining Inc.,HIGH.V
+105,Defiance Silver Corp.,DEF.V
+106,Nevgold Corp.,NAU.V
+107,OMAI Gold Mines Corp.,OMG.V
+108,American Eagle Gold Corp.,AE.V
+109,Cantex Mine Development Corp.,CD.V
+110,Grande Portage Resources Ltd.,GPG.V
+111,Silver Mountain Resources Inc.,AGMR.V
+112,Endurance Gold Corporation,EDG.V
+113,Canadian Gold Corp.,CGC.V
+114,Western Alaska Minerals Corp.,WAM.V
+115,Royal Road Minerals Limited,RYR.V
+116,Kobo Resources Inc.,KRI.V
+117,Western Exploration Inc.,WEX.V
+118,Angus Gold Inc.,GUS.V
+119,Apollo Silver Corp.,APGO.V
+120,Tristar Gold Inc.,TSG.V
+121,Gunpoint Exploration Ltd.,GUN.V
+122,Labrador Gold Corp.,LAB.V
+123,GoldQuest Mining Corp.,GQC.V
+124,Blackwolf Copper and Gold Ltd.,BWCG.V
+125,Maritime Resources Corp.,MAE.V
+126,Star Royalties Ltd.,STRR.V
+127,Battery Mineral Resources Corp.,BMR.V
+128,Galantas Gold Corporation,GAL.V
+129,Newport Exploration Ltd.,NWX.V
+130,Torq Resources Inc.,TORQ.V
+131,GR Silver Mining Ltd.,GRSL.V
+132,Bonterra Resources Inc.,BTR.V
+133,Newcore Gold Ltd.,NCAU.V
+134,GMV Minerals Inc.,GMV.V
+135,Maple Gold Mines Ltd.,MGM.V
+136,Starr Peak Mining Ltd.,STE.V
+137,GFG Resources Inc.,GFG.V
+138,Palladium One Mining Inc.,PDM.V
+139,Viscount Mining Corp.,VML.V
+140,Lara Exploration Ltd.,LRA.V
+141,Stallion Uranium Corp.,STUD.V
+142,Strategic Metals Ltd.,SMD.V
+143,Japan Gold Corp.,JG.V
+144,Electric Metals (USA) Limited,EML.V
+145,Lake Victoria Gold Ltd.,LVG.V
+146,Velocity Minerals Ltd.,VLC.V
+147,Sokoman Minerals Corp.,SIC.V
+148,Goldbank Mining Corporation,GLB.V
+149,Tincorp Metals Inc.,TIN.V
+150,MAX Resource Corp.,MAX.V
+151,QC Copper and Gold Inc.,QCCU.V
+152,Phenom Resources Corp.,PHNM.V
+153,Equity Metals Corporation,EQTY.V
+154,Pacific Ridge Exploration Ltd.,PEX.V
+155,Arras Minerals Corp.,ARK.V
+156,West High Yield (W.H.Y.) Resources Ltd.,WHY.V
+157,Abcourt Mines Inc.,ABI.V
+158,Hannan Metals Ltd.,HAN.V
+159,Rugby Resources Ltd.,RUG.V
+160,Rockhaven Resources Ltd.,RK.V
+161,Fancamp Exploration Ltd.,FNC.V
+162,Golden Horse Minerals Limited,GHML.V
+163,Canuc Resources Corporation,CDA.V
+164,Amarc Resources Ltd.,AHR.V
+165,Barsele Minerals Corp.,BME.V
+166,Aurania Resources Ltd.,ARU.V
+167,Bayhorse Silver Inc.,BHS.V
+168,Vulcan Minerals Inc.,VUL.V
+169,Austral Gold Limited,AGLD.V
+170,Sun Peak Metals Corp.,PEAK.V
+171,Macarthur Minerals Limited,MMS.V
+172,Mundoro Capital Inc.,MUN.V
+173,Surge Copper Corp.,SURG.V
+174,CopAur Minerals Inc.,CPAU.V
+175,Spruce Ridge Resources Ltd.,SHL.V
+176,FireFox Gold Corp.,FFOX.V
+177,BCM Resources Corporation,B.V
+178,Puma Exploration Inc.,PUMA.V
+179,Angkor Resources Corp.,ANK.V
+180,Aton Resources Inc.,AAN.V
+181,Freeman Gold Corp.,FMAN.V
+182,East Africa Metals Inc.,EAM.V
+183,Aztec Minerals Corp.,AZT.V
+184,Almadex Minerals Ltd.,DEX.V
+185,Goldsource Mines Inc.,GXS.V
+186,Regency Silver Corp.,RSMX.V
+187,Clean Air Metals Inc.,AIR.V
+188,Tribeca Resources Corporation,TRBC.V
+189,Silver Viper Minerals Corp.,VIPR.V
+190,Stakeholder Gold Corp.,SRC.V
+191,Unigold Inc.,UGD.V
+192,Tier One Silver Inc.,TSLV.V
+193,BeMetals Corp.,BMET.V
+194,Big Ridge Gold Corp.,BRAU.V
+195,Delta Resources Limited,DLTA.V
+196,Triumph Gold Corp.,TIG.V
+197,Trailbreaker Resources Ltd.,TBK.V
+198,TVI Pacific Inc.,TVI.V
+199,Vior Inc.,VIO.V
+200,Goldstorm Metals Corp.,GSTM.V
+201,Aston Bay Holdings Ltd.,BAY.V
+202,Altiplano Metals Inc.,APN.V
+203,Sable Resources Ltd.,SAE.V
+204,Canterra Minerals Corporation,CTM.V
+205,Cascadia Minerals Ltd.,CAM.V
+206,Vizsla Copper Corp.,VCU.V
+207,P2 Gold Inc.,PGLD.V
+208,Eagle Plains Resources Ltd.,EPL.V
+209,Decade Resources Ltd.,DEC.V
+210,Sirios Resources Inc.,SOI.V
+211,Allegiant Gold Ltd.,AUAU.V
+212,Viva Gold Corp.,VAU.V
+213,Klondike Gold Corp.,KG.V
+214,Radius Gold Inc.,RDU.V
+215,Sonoro Gold Corp.,SGO.V
+216,Solstice Gold Corp.,SGC.V
+217,Portofino Resources Inc.,POR.V
+218,Atico Mining Corporation,ATY.V
+219,Nulegacy Gold Corporation,NUG.V
+220,Dryden Gold Corp.,DRY.V
+221,Volcanic Gold Mines Inc.,VG.V
+222,Zincx Resources Corp.,ZNX.V
+223,KORE Mining Ltd.,KORE.V
+224,Quartz Mountain Resources Ltd.,QZM.V
+225,Noble Mineral Exploration Inc.,NOB.V
+226,Patagonia Gold Corp.,PGDC.V
+227,Dynasty Gold Corp.,DYG.V
+228,Elevation Gold Mining Corporation,ELVT.V
+229,Golconda Gold Ltd.,GG.V
+230,Timberline Resources Corporation,TBR.V
+231,Capitan Silver Corp.,CAPT.V
+232,Rackla Metals Inc.,RAK.V
+233,Relevant Gold Corp.,RGC.V
+234,Garibaldi Resources Corp.,GGI.V
+235,Ridgeline Minerals Corp.,RDG.V
+236,Turmalina Metals Corp.,TBX.V
+237,Silver Range Resources Ltd.,SNG.V
+238,Zacatecas Silver Corp.,ZAC.V
+239,Imperial Mining Group Ltd.,IPG.V
+240,Omineca Mining and Metals Ltd.,OMM.V
+241,Eminent Gold Corp.,EMNT.V
+242,Adamera Minerals Corp.,ADZ.V
+243,Canada Silver Cobalt Works Inc.,CCW.V
+244,Orosur Mining Inc.,OMI.V
+245,CopperCorp Resources Inc.,CPER.V
+246,TNR Gold Corp.,TNR.V
+247,Canadian Critical Minerals Inc.,CCMI.V
+248,Pacific Booker Minerals Inc.,BKM.V
+249,Namibia Critical Metals Inc.,NMI.V
+250,Orford Mining Corporation,ORM.V
+251,Multi-Metal Development Ltd.,MLY.V
+252,1911 Gold Corporation,AUMB.V
+253,DFR Gold Inc.,DFR.V
+254,Rokmaster Resources Corp.,RKR.V
+255,Precipitate Gold Corp.,PRG.V
+256,VR Resources Ltd.,VRR.V
+257,Riverside Resources Inc.,RRI.V
+258,Lahontan Gold Corp.,LG.V
+259,Strikepoint Gold Inc.,SKP.V
+260,Ximen Mining Corp.,XIM.V
+261,ValOre Metals Corp.,VO.V
+262,Angel Wing Metals Inc.,AWM.V
+263,Klondike Silver Corp.,KS.V
+264,Palamina Corp.,PA.V
+265,New Age Metals Inc.,NAM.V
+266,Kirkland Lake Discoveries Corp.,KLDC.V
+267,Onyx Gold Corp,ONYX.V
+268,Sienna Resources Inc.,SIE.V
+269,North Arrow Minerals Inc.,NAR.V
+270,Carolina Rush Corporation,RUSH.V
+271,Fortune Bay Corp.,FOR.V
+272,Ultra Lithium Inc.,ULT.V
+273,Harfang Exploration Inc.,HAR.V
+274,Enduro Metals Corporation,ENDR.V
+275,MTB Metals Corp.,MTB.V
+276,Awale Resources Limited,ARIC.V
+277,Bravada Gold Corporation,BVA.V
+278,JZR Gold Inc.,JZR.V
+279,Peruvian Metals Corp.,PER.V
+280,Galleon Gold Corp.,GGO.V
+281,K2 Gold Corporation,KTO.V
+282,Desert Gold Ventures Inc.,DAU.V
+283,Transatlantic Mining Corp.,TCO.V
+284,PPX Mining Corp.,PPX.V
+285,Fokus Mining Corporation,FKM.V
+286,Chibougamau Independent Mines Inc.,CBG.V
+287,Chakana Copper Corp.,PERU.V
+288,Renegade Gold Inc.,RAGE.V
+289,Golden Arrow Resources Corporation,GRG.V
+290,Kainantu Resources Ltd.,KRL.V
+291,Halcones Precious Metals Corp.,HPM.V
+292,Melkior Resources Inc.,MKR.V
+293,ALX Resources Corp.,AL.V
+294,Empire Metals Corp.,EP.V
+295,Compass Gold Corporation,CVB.V
+296,Kaizen Discovery Inc.,KZD.V
+297,Stelmine Canada Ltée / Stelmine Canada Ltd.,STH.V
+298,Quebec Precious Metals Corporation,QPM.V
+299,Fredonia Mining Inc.,FRED.V
+300,Bedford Metals Corp.,BFM.V
+301,Val-D'Or Mining Corporation,VZZ.V
+302,St. James Gold Corp.,LORD.V
+303,Sanatana Resources Inc.,STA.V
+304,Stratabound Minerals Corp.,SB.V
+305,QMC Quantum Minerals Corp.,QMC.V
+306,Thunder Gold Corp.,TGOL.V
+307,Sparton Resources Inc.,SRI.V
+308,Evergold Corp.,EVER.V
+309,Juggernaut Exploration Ltd.,JUGR.V
+310,Green Mining Innovation Inc.,GMI.V
+311,Astra Exploration Inc.,ASTR.V
+312,Silver Bullet Mines Corp.,SBMI.V
+313,Nevada Sunrise Metals Corporation,NEV.V
+314,GGL Resources Corp.,GGL.V
+315,Vortex Metals Inc.,VMS.V
+316,Walker River Resources Corp.,WRR.V
+317,York Harbour Metals Inc.,YORK.V
+318,Getty Copper Inc.,GTC.V
+319,Prosper Gold Corp.,PGX.V
+320,Infinico Metals Corp.,INFM.V
+321,Zephyr Minerals Ltd.,ZFR.V
+322,Capella Minerals Limited,CMIL.V
+323,Kingfisher Metals Corp.,KFR.V
+324,Sun Summit Minerals Corp.,SMN.V
+325,TRU Precious Metals Corp.,TRU.V
+326,Canex Metals Inc.,CANX.V
+327,Big Tree Carbon Inc.,BIGT.V
+328,Granite Creek Copper Ltd.,GCX.V
+329,Sterling Metals Corp.,SAG.V
+330,Marvel Discovery Corp.,MARV.V
+331,Dios Exploration Inc.,DOS.V
+332,Champion Bear Resources Ltd.,CBA.V
+333,ExGen Resources Inc.,EXG.V
+334,Copper Lake Resources Ltd.,CPL.V
+335,ArcWest Exploration Inc.,AWX.V
+336,Latin Metals Inc.,LMS.V
+337,Windfall Geotek Inc.,WIN.V
+338,Visible Gold Mines Inc.,VGD.V
+339,Grizzly Discoveries Inc.,GZD.V
+340,M3 Metals Corp.,MT.V
+341,Scorpio Gold Corporation,SGN.V
+342,Inventus Mining Corp.,IVS.V
+343,Silver North Resources Ltd.,SNAG.V
+344,BTU Metals Corp.,BTU.V
+345,Antler Gold Inc.,ANTL.V
+346,Golden Ridge Resources Ltd.,GLDN.V
+347,E2Gold Inc.,ETU.V
+348,Wildsky Resources Inc.,WSK.V
+349,Dixie Gold Inc.,DG.V
+350,Lion Rock Resources Inc.,ROAR.V
+351,Taura Gold Inc.,TORA.V
+352,Metals Creek Resources Corp.,MEK.V
+353,Fidelity Minerals Corp.,FMN.V
+354,AM Resources Corp.,AMR.V
+355,Golden Pursuit Resources Ltd.,GDP.V
+356,Baru Gold Corp.,BARU.V
+357,Guyana Goldstrike Inc.,GYA.V
+358,Falcon Gold Corp.,FG.V
+359,GPM Metals Inc.,GPM.V
+360,Centenario Gold Corp.,CTG.V
+361,Inca One Gold Corp.,INCA.V
+362,Western Gold Exploration Ltd.,WGLD.V
+363,Iconic Minerals Ltd.,ICM.V
+364,Genius Metals Inc.,GENI.V
+365,CMC Metals Ltd.,CMB.V
+366,Colibri Resource Corporation,CBI.V
+367,Highway 50 Gold Corp.,HWY.V
+368,Canasil Resources Inc.,CLZ.V
+369,Badlands Resources Inc.,BLDS.V
+370,Signature Resources Ltd.,SGU.V
+371,Kingsmen Resources Ltd.,KNG.V
+372,Reyna Gold Corp.,REYG.V
+373,Stroud Resources Ltd.,SDR.V
+374,Eros Resources Corp.,ERC.V
+375,MAS Gold Corp.,MAS.V
+376,Gold79 Mines Ltd.,AUU.V
+377,iMetal Resources Inc.,IMR.V
+378,Romios Gold Resources Inc.,RG.V
+379,Winshear Gold Corp.,WINS.V
+380,Transition Metals Corp.,XTM.V
+381,Blue Thunder Mining Inc.,BLUE.V
+382,Azucar Minerals Ltd.,AMZ.V
+383,Dinero Ventures Ltd.,DNO.V
+384,Gold Bull Resources Corp.,GBRC.V
+385,Abacus Mining & Exploration Corporation,AME.V
+386,Ranchero Gold Corp.,RNCH.V
+387,Honey Badger Silver Inc.,TUF.V
+388,Angold Resources Ltd.,AAU.V
+389,Gungnir Resources Inc.,GUG.V
+390,Belmont Resources Inc.,BEA.V
+391,Contact Gold Corp.,C.V
+392,Jayden Resources Inc.,JDN.V
+393,Batero Gold Corp.,BAT.V
+394,Pucara Gold Ltd.,TORO.V
+395,Orex Minerals Inc.,REX.V
+396,Tajiri Resources Corp.,TAJ.V
+397,Southern Empire Resources Corp.,SMP.V
+398,Silver Valley Metals Corp.,SILV.V
+399,Tombill Mines Limited,TBLL.V
+400,Searchlight Resources Inc.,SCLT.V
+401,Copper Road Resources Inc.,CRD.V
+402,Casa Minerals Inc.,CASA.V
+403,Trifecta Gold Ltd.,TG.V
+404,Playfair Mining Ltd.,PLY.V
+405,T2 Metals Corp.,TWO.V
+406,Tarku Resources Ltd.,TKU.V
+407,Opus One Gold Corporation,OOR.V
+408,Freeport Resources Inc.,FRI.V
+409,Minnova Corp.,MCI.V
+410,Goldex Resources Corporation,GDX.V
+411,International Metals Mining Corp.,IMM.V
+412,Nobel Resources Corp.,NBLC.V
+413,Kestrel Gold Inc.,KGC.V
+414,Helius Minerals Limited,HHH.V
+415,Pelangio Exploration Inc.,PX.V
+416,Xplore Resources Corp.,XPLR.V
+417,Silver Spruce Resources Inc.,SSE.V
+418,AXMIN Inc.,AXM.V
+419,GSP Resource Corp.,GSPR.V
+420,Tesoro Minerals Corp.,TES.V
+421,Indigo Exploration Inc.,IXI.V
+422,Beauce Gold Fields Inc.,BGF.V
+423,Emergent Metals Corp.,EMR.V
+424,Northern Shield Resources Inc.,NRN.V
+425,Prospector Metals Corp.,PPP.V
+426,Altai Resources Inc.,ATI.V
+427,Finlay Minerals Ltd.,FYL.V
+428,Sarama Resources Ltd.,SWA.V
+429,Conquest Resources Limited,CQR.V
+430,K9 Gold Corp.,KNC.V
+431,Torr Metals Inc.,TMET.V
+432,Carlin Gold Corporation,CGD.V
+433,Silver Wolf Exploration Ltd.,SWLF.V
+434,Fremont Gold Ltd.,FRE.V
+435,Smooth Rock Ventures Corp.,SMRV.V
+436,NewOrigin Gold Corp.,NEWO.V
+437,Kintavar Exploration Inc.,KTR.V
+438,Metalquest Mining Inc.,MQM.V
+439,Pantera Silver Corp.,PNTR.V
+440,Rio Silver Inc.,RYO.V
+441,Hemlo Explorers Inc.,HMLO.V
+442,Apex Resources Inc.,APX.V
+443,Jaxon Mining Inc.,JAX.V
+444,Western Metallica Resources Corp.,WMS.V
+445,Rockridge Resources Ltd.,ROCK.V
+446,Magna Terra Minerals Inc.,MTT.V
+447,Leviathan Gold Ltd.,LVX.V
+448,Bulgold Inc.,ZLTO.V
+449,Stinger Resources Inc.,STNG.V
+450,InZinc Mining Ltd.,IZN.V
+451,Libero Copper & Gold Corporation,LBC.V
+452,Metallis Resources Inc.,MTS.V
+453,Vatic Ventures Corp.,VCV.V
+454,Commander Resources Ltd.,CMD.V
+455,Wescan Goldfields Inc.,WGF.V
+456,Kalo Gold Corp.,KALO.V
+457,Granada Gold Mine Inc.,GGM.V
+458,Sky Gold Corp.,SKYG.V
+459,Europacific Metals Inc.,EUP.V
+460,Jinhua Capital Corporation,JHC.V
+461,Bold Ventures Inc.,BOL.V
+462,Bitterroot Resources Ltd.,BTT.V
+463,Jade Leader Corp.,JADE.V
+464,Golden Sky Minerals Corp.,AUEN.V
+465,Goldflare Exploration Inc.,GOFL.V
+466,Great Atlantic Resources Corp.,GR.V
+467,CaNickel Mining Limited,CML.V
+468,Candelaria Mining Corp.,CAND.V
+469,KAPA Gold Inc.,KAPA.V
+470,Jubilee Gold Exploration Ltd.,JUB.V
+471,NV Gold Corporation,NVX.V
+472,Sego Resources Inc.,SGZ.V
+473,Cleghorn Minerals Ltd.,CZZ.V
+474,Glen Eagle Resources Inc.,GER.V
+475,Azarga Metals Corp.,AZR.V
+476,Nevada Exploration Inc.,NGE.V
+477,TinOne Resources Inc.,TORC.V
+478,Golden Share Resources Corporation,GSH.V
+479,Golden Goliath Resources Ltd.,GNG.V
+480,Lincoln Gold Mining Inc.,LMG.V
+481,BWR Exploration Inc.,BWR.V
+482,Northern Lion Gold Corp.,NL.V
+483,Inomin Mines Inc.,MINE.V
+484,Silver Predator Corp.,SPD.V
+485,Global Energy Metals Corporation,GEMC.V
+486,Argentum Silver Corp.,ASL.V
+487,Outback Goldfields Corp.,OZ.V
+488,International Iconic Gold Exploration Corp.,ICON.V
+489,Tres-Or Resources Ltd.,TRS.V
+490,Goldcliff Resource Corporation,GCN.V
+491,EGR Exploration Ltd.,EGR.V
+492,Nickel North Exploration Corp.,NNX.V
+493,Gossan Resources Limited,GSS.V
+494,Kiboko Gold Inc.,KIB.V
+495,Fort St. James Nickel Corp.,FTJ.V
+496,King Global Ventures Inc.,KING.V
+497,Avidian Gold Corp.,AVG.V
+498,Nickelex Resource Corporation,NICK.V
+499,Greencastle Resources Ltd.,VGN.V
+500,Hanstone Gold Corp.,HANS.V
+501,SLAM Exploration Ltd.,SXL.V
+502,Mineral Hill Industries Ltd.,MHI.V
+503,Aben Minerals Ltd.,ABM.V
+504,Engold Mines Ltd.,EGM.V
+505,Margaret Lake Diamonds Inc.,DIA.V
+506,Fjordland Exploration Inc.,FEX.V
+507,Galore Resources Inc.,GRI.V
+508,South Atlantic Gold Inc.,SAO.V
+509,MacDonald Mines Exploration Ltd.,BMK.V
+510,TomaGold Corporation,LOT.V
+511,Bullion Gold Resources Corp.,BGD.V
+512,Avrupa Minerals Ltd.,AVU.V
+513,BMEX Gold Inc.,BMEX.V
+514,International Prospect Ventures Ltd.,IZZ.V
+515,Masivo Silver Corp.,MASS.V
+516,QCX Gold Corp.,QCX.V
+517,Providence Gold Mines Inc.,PHD.V
+518,Cascadero Copper Corporation,CCD.V
+519,Apogee Minerals Ltd.,APMI.V
+520,Mexican Gold Mining Corp.,MEX.V
+521,WestKam Gold Corp.,WKG.V
+522,Damara Gold Corp.,DMR.V
+523,Alturas Minerals Corp.,ALT.V
+524,Blue Moon Metals Inc.,MOON.V
+525,Li3 Lithium Corp.,LILI.V
+526,Lupaka Gold Corp.,LPK.V
+527,Akwaaba Mining Ltd.,AML.V
+528,Blende Silver Corp.,BAG.V
+529,Orestone Mining Corp.,ORS.V
+530,Pacific Empire Minerals Corp.,PEMC.V
+531,Black Mammoth Metals Corporation,BMM.V
+532,Generation Gold Corp.,GEN.V
+533,Thunderstruck Resources Ltd.,AWE.V
+534,Central Iron Ore Limited,CIO.V
+535,Lodestar Battery Metals Corp.,LSTR.V
+536,Monarca Minerals Inc.,MMN.V
+537,Teras Resources Inc.,TRA.V
+538,Pacific Bay Minerals Ltd.,PBM.V
+539,Ridgestone Mining Inc.,RMI.V
+540,Troubadour Resources Inc.,TR.V
+541,1844 Resources Inc.,EFF.V
+542,Stuve Gold Corp.,STUV.V
+543,Madoro Metals Corp.,MDM.V
+544,Harvest Gold Corp.,HVG.V
+545,Engineer Gold Mines Ltd.,EAU.V
+546,Newrange Gold Corp.,NRG.V
+547,Stellar AfricaGold Inc.,SPX.V
+548,Millennium Silver Corp.,MSC.V
+549,GoldON Resources Ltd.,GLD.V
+550,GGX Gold Corp.,GGX.V
+551,G.E.T.T. Gold Inc.,GETT.V
+552,GK Resources Ltd.,NIKL.V
+553,Opawica Explorations Inc.,OPW.V
+554,Nortec Minerals Corp.,NVT.V
+555,Lucky Minerals Inc.,LKY.V
+556,Mammoth Resources Corp.,MTH.V
+557,Baroyeca Gold & Silver Inc.,BGS.V
+558,Gitennes Exploration Inc.,GIT.V
+559,Canoe Mining Ventures Corp.,CLV.V
+560,Rochester Resources Ltd.,RCT.V
+561,AuQ Gold Mining Inc.,AUQ.V
+562,Select Sands Corp.,SNS.V
+563,Adyton Resources Corporation,ADY.V
+564,Mantaro Precious Metals Corp.,MNTR.V
+565,Norrland Gold Corp.,NORR.V
+566,Q-Gold Resources Ltd.,QGR.V
+567,Nexus Gold Corp.,NXS.V
+568,Quadro Resources Ltd.,QRO.V
+569,Montauk Metals Inc.,MTK.V
+570,Fairchild Gold Corp.,FAIR.V
+571,District Copper Corp.,DCOP.V
+572,Pacific Imperial Mines Inc.,PPM.V
+573,Plata Latina Minerals Corporation,PLA.V
+574,Bonanza Mining Corporation,BNZ.V
+575,Infield Minerals Corp.,INFD.V
+576,Alliance Mining Corp.,ALM.V
+577,Medgold Resources Corp.,MED.V
+578,AU Gold Corp.,AUGC.V
+579,Kingman Minerals Ltd.,KGS.V
+580,RT Minerals Corp.,RTM.V
+581,Discovery-Corp Enterprises Inc.,DCY.V
+582,Kermode Resources Ltd.,KLM.V
+583,Aloro Mining Corp.,AORO.V
+584,Altair Resources Inc.,AVX.V
+585,New Destiny Mining Corp.,NED.V
+586,Norden Crown Metals Corporation,NOCR.V
+587,XAU Resources Inc.,GIG.V
+588,Cortus Metals Inc.,CRTS.V
+589,IEMR Resources Inc.,IRI.V
+590,Optegra Ventures Inc.,OPTG.V
+591,Saville Resources Inc.,SRE.V
+592,Fabled Silver Gold Corp.,FCO.V
+593,Huntsman Exploration Inc.,HMAN.V
+594,Rex Resources Corp.,OWN.V
+595,Magnum Goldcorp Inc.,MGI.V
+596,Vantex Resources Ltd.,VAX.V
+597,Hawkeye Gold & Diamond Inc.,HAWK.V
+598,Tymbal Resources Ltd.,TYMB.V
+599,AFR NuVenture Resources Inc.,AFR.V
+600,Venerable Ventures Ltd.,VLV.V
