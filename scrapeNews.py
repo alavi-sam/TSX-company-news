@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import os
 from glob import glob
 import pandas as pd
-from checkCompanyTicker import Request
+# from checkCompanyTicker import Request
 from dataclasses import dataclass
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
@@ -39,10 +39,11 @@ class Request:
             scroll_count += 1
 
 
-    def get(self, url):
+    def get(self, url, scroll=True):
         self.driver.get(url)
         # time.sleep(3)
-        self.scroll()
+        if scroll:
+            self.scroll()
         reponse = self.driver.page_source
         self.driver.close()
         return reponse
@@ -94,13 +95,14 @@ class ScrapeCompanyNews(Request):
 
 class ScrapeNews(Request):
     def __init__(self, header, url):
+        super().__init__()
         self.header = header
         self.url = url
 
 
     def get_news(self):
-        response = self.get('https://ca.finance.yahoo.com/' + self.url)
-        parser = BeautifulSoup(response.content, 'html.parser')
+        response = self.get('https://ca.finance.yahoo.com' + self.url, scroll=False)
+        parser = BeautifulSoup(response, 'html.parser')
         article_container = parser.find('article', attrs={'class': 'caas-container'})
         article_body = article_container.find('div', attrs={'class': 'caas-body'})        
         paragraphs = article_body.find_all('p')
@@ -113,10 +115,19 @@ class ScrapeNews(Request):
 
 
 if __name__ == '__main__':
-    scrape_companies = ScrapeCompanyNews(comapny_ticker='LGD.TO', company_name='Liberty Gold Corp.')
-    company_page = scrape_companies.get_page()
-    news = scrape_companies.get_all_news(company_page)
-    for new in news:
-        print(new)
+    df = pd.read_csv(r'data-tsx\TorontoCompanies.csv')
+    os.makedirs('data', exist_ok=True)
+    for i, row in df.iterrows():
+        if not os.path.isdir(os.path.join('data', row[1])):
+            os.makedirs(os.path.join('data', row[1]))
+        scrape_companies = ScrapeCompanyNews(comapny_ticker=row[2], company_name=row[1])
+        company_page = scrape_companies.get_page()
+        news = scrape_companies.get_all_news(company_page)
+        for new in news:
+            if not os.path.isfile(os.path.join('data', row[1], new.header)):
+                scrape_news = ScrapeNews(header=new.header, url=new.url)
+                news_content = scrape_news.get_news()
+                with open(f'{new.header}.txt', 'w') as f:
+                    f.write(news_content)
 
     
