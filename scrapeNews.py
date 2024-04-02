@@ -18,7 +18,7 @@ class Request:
 
     
     def __init__(self):
-        self.service = Service('chromedriver.exe')
+        self.service = Service('chromedriver')
         self.driver = webdriver.Chrome(service=self.service, options=self.chrome_options)
     
 
@@ -140,7 +140,7 @@ if __name__ == '__main__':
                 address = os.path.join(os.getcwd(), 'data', row[1], new.header)
                 with open(os.path.join('data', row[1], str(i) + '.txt'), 'wb') as f:
                     f.write(news_content)
-                    
+
                 with open('ScrapedNews.txt', 'a') as f:
                     f.write(f'{row[1]}  {new.header}\n')
             else:
