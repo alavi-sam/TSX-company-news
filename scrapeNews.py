@@ -120,7 +120,7 @@ class ScrapeNews(Request):
 
 
 if __name__ == '__main__':
-    df = pd.read_csv(r'data-tsxv\VancouverCompanies.csv')
+    df = pd.read_csv(os.path.join('data-tsxv', 'VancouverCompanies.csv'))
     os.makedirs('data', exist_ok=True)
     for i, row in df.iterrows():
         if not os.path.isdir(os.path.join('data', row[1])):
