@@ -18,7 +18,7 @@ class Request:
 
     
     def __init__(self):
-        self.service = Service('chromedriver')
+        self.service = Service('chromedriver.exe')
         self.driver = webdriver.Chrome(service=self.service, options=self.chrome_options)
     
 
