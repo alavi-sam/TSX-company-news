@@ -14,7 +14,7 @@ import time
 
 class Request:
     chrome_options = Options()
-    # chrome_options.add_argument("--headless=new")
+    chrome_options.add_argument("--headless=new")
 
     
     def __init__(self):
@@ -41,11 +41,11 @@ class Request:
 
     def get(self, url, scroll=True):
         self.driver.get(url)
-        # time.sleep(3)
+        time.sleep(3)
         if scroll:
             self.scroll()
         reponse = self.driver.page_source
-        self.driver.close()
+        # self.driver.close()
         return reponse
 
 
@@ -83,11 +83,15 @@ class ScrapeCompanyNews(Request):
         for news in all_news:
             if news.find('div', attrs={'class': 'controller gemini-ad native-ad-item Feedback Pos(r)'}):
                 continue
-            news_header_section = news.find('h3')
-            news_url = news_header_section.find('a')
-            news_header = news_url.text
-            news_instance = NewsModel(url=news_url['href'], header=news_header)            
-            self.news_list.append(news_instance)
+            try:
+                news_header_section = news.find('h3')
+                news_url = news_header_section.find('a')
+                news_header = news_url.text
+                news_instance = NewsModel(url=news_url['href'], header=news_header)            
+                self.news_list.append(news_instance)
+            except AttributeError:
+                continue
+
 
         return self.news_list
     
@@ -107,6 +111,7 @@ class ScrapeNews(Request):
         article_body = article_container.find('div', attrs={'class': 'caas-body'})        
         paragraphs = article_body.find_all('p')
         content = str()
+        content += 'https://ca.finance.yahoo.com' + self.url + '\n'
         for paragraph in paragraphs:
             content += paragraph.text + '\n'
 
@@ -115,7 +120,7 @@ class ScrapeNews(Request):
 
 
 if __name__ == '__main__':
-    df = pd.read_csv(r'data-tsx\TorontoCompanies.csv')
+    df = pd.read_csv(r'data-tsxv\VancouverCompanies.csv')
     os.makedirs('data', exist_ok=True)
     for i, row in df.iterrows():
         if not os.path.isdir(os.path.join('data', row[1])):
@@ -124,10 +129,15 @@ if __name__ == '__main__':
         company_page = scrape_companies.get_page()
         news = scrape_companies.get_all_news(company_page)
         for new in news:
-            if not os.path.isfile(os.path.join('data', row[1], new.header)):
+            new.header = new.header.replace(':', '').replace('/', '').replace('\\', '').replace('"', '').replace("'", '').replace('?', '').replace('%', '').replace(',', '').replace(';', '').replace('.', '').replace('’', '').replace('\n', '').replace('>', '').replace('<', '').replace('*', '')
+            if not os.path.isfile(os.path.join('data', row[1], f"{new.header}.txt")):
                 scrape_news = ScrapeNews(header=new.header, url=new.url)
                 news_content = scrape_news.get_news()
-                with open(f'{new.header}.txt', 'w') as f:
+                news_content = news_content.encode('utf-8')
+                address = os.path.join(os.getcwd(), 'data', row[1], new.header)[:220]
+                with open(address + '.txt', 'wb') as f:
                     f.write(news_content)
+            else:
+                print('passed', new.header)
 
     
