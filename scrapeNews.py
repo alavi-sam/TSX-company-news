@@ -128,15 +128,21 @@ if __name__ == '__main__':
         scrape_companies = ScrapeCompanyNews(comapny_ticker=row[2], company_name=row[1])
         company_page = scrape_companies.get_page()
         news = scrape_companies.get_all_news(company_page)
-        for new in news:
-            new.header = new.header.replace(':', '').replace('/', '').replace('\\', '').replace('"', '').replace("'", '').replace('?', '').replace('%', '').replace(',', '').replace(';', '').replace('.', '').replace('’', '').replace('\n', '').replace('>', '').replace('<', '').replace('*', '')
-            if not os.path.isfile(os.path.join('data', row[1], f"{new.header}.txt")):
+        for i, new in enumerate(news):
+            # new.header = new.header.replace(':', '').replace('/', '').replace('\\', '').replace('"', '').replace("'", '').replace('?', '').replace('%', '').replace(',', '').replace(';', '').replace('.', '').replace('’', '').replace('\n', '').replace('>', '').replace('<', '').replace('*', '')
+            
+            with open('ScrapedNews.txt', 'r') as f:
+                scraped_news = set([line.strip() for line in f.readlines()])
+            if not f'{row[1]}  {new.header}' in scraped_news:
                 scrape_news = ScrapeNews(header=new.header, url=new.url)
                 news_content = scrape_news.get_news()
                 news_content = news_content.encode('utf-8')
-                address = os.path.join(os.getcwd(), 'data', row[1], new.header)[:220]
-                with open(address + '.txt', 'wb') as f:
+                address = os.path.join(os.getcwd(), 'data', row[1], new.header)
+                with open(os.path.join('data', row[1], str(i) + '.txt'), 'wb') as f:
                     f.write(news_content)
+                    
+                with open('ScrapedNews.txt', 'a') as f:
+                    f.write(f'{row[1]}  {new.header}\n')
             else:
                 print('passed', new.header)
 
