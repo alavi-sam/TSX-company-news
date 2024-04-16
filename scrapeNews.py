@@ -20,7 +20,7 @@ class Request:
     
     def __init__(self):
         self.service = Service('chromedriver')
-        self.driver = webdriver.Chrome(ChromeDriverManager().install(), options=self.chrome_options)
+        self.driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=self.chrome_options)
     
 
     def scroll(self):
