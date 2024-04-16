@@ -8,6 +8,7 @@ from dataclasses import dataclass
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
+from webdriver_manager.chrome import ChromeDriverManager
 import time
 
 
@@ -18,8 +19,8 @@ class Request:
 
     
     def __init__(self):
-        self.service = Service('chromedriver.exe')
-        self.driver = webdriver.Chrome(service=self.service, options=self.chrome_options)
+        self.service = Service('chromedriver')
+        self.driver = webdriver.Chrome(ChromeDriverManager().install(), options=self.chrome_options)
     
 
     def scroll(self):
