@@ -139,6 +139,7 @@ if __name__ == '__main__':
                 news_content = scrape_news.get_news()
                 news_content = news_content.encode('utf-8')
                 address = os.path.join(os.getcwd(), 'data', row[1], new.header)
+                print(row[1], new.header)
                 with open(os.path.join('data', row[1], str(i) + '.txt'), 'wb') as f:
                     f.write(news_content)
 
