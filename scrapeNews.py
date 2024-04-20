@@ -5,6 +5,7 @@ from glob import glob
 import pandas as pd
 # from checkCompanyTicker import Request
 from dataclasses import dataclass
+from selenium.webdriver.common.by import By
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
@@ -15,12 +16,12 @@ import time
 
 class Request:
     chrome_options = Options()
-    chrome_options.add_argument("--headless=new")
+    # chrome_options.add_argument("--headless=new")   
 
     
     def __init__(self):
         self.service = Service('chromedriver')
-        self.driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=self.chrome_options)
+        self.driver = webdriver.Chrome(service=self.service, options=self.chrome_options)
     
 
     def scroll(self):
@@ -108,6 +109,10 @@ class ScrapeNews(Request):
     def get_news(self):
         response = self.get('https://ca.finance.yahoo.com' + self.url, scroll=False)
         parser = BeautifulSoup(response, 'html.parser')
+        if parser.find('div', {'class': 'con-wizard'}):
+            consent_container = self.driver.find_element(by=By.XPATH, value="//div[@class='con-wizard']")
+            consent_container.find_element(By.XPATH, "//button[@class='btn secondary accept-all consent_reject_all_2']").click()
+        parser = BeautifulSoup(self.driver.page_source, 'html.parser')
         article_container = parser.find('article', attrs={'class': 'caas-container'})
         article_body = article_container.find('div', attrs={'class': 'caas-body'})        
         paragraphs = article_body.find_all('p')
@@ -121,12 +126,13 @@ class ScrapeNews(Request):
 
 
 if __name__ == '__main__':
-    df = pd.read_csv(os.path.join('data-tsxv', 'VancouverCompanies.csv'))
-    os.makedirs('data', exist_ok=True)
+    # df = pd.read_csv(os.path.join('data-tsxv', 'VancouverCompanies.csv'))
+    df = pd.read_excel('GSD 10-Baggers.xlsx', sheet_name='Sheet1')
+    os.makedirs('data-10-b', exist_ok=True)
     for i, row in df.iterrows():
-        if not os.path.isdir(os.path.join('data', row[1])):
-            os.makedirs(os.path.join('data', row[1]))
-        scrape_companies = ScrapeCompanyNews(comapny_ticker=row[2], company_name=row[1])
+        if not os.path.isdir(os.path.join('data-10-b', row[1])):
+            os.makedirs(os.path.join('data-10-b', row[1]))
+        scrape_companies = ScrapeCompanyNews(comapny_ticker=row[1], company_name=row[0])
         company_page = scrape_companies.get_page()
         news = scrape_companies.get_all_news(company_page)
         for i, new in enumerate(news):
@@ -138,9 +144,9 @@ if __name__ == '__main__':
                 scrape_news = ScrapeNews(header=new.header, url=new.url)
                 news_content = scrape_news.get_news()
                 news_content = news_content.encode('utf-8')
-                address = os.path.join(os.getcwd(), 'data', row[1], new.header)
+                address = os.path.join(os.getcwd(), 'data-10-b', row[1], new.header)
                 print(row[1], new.header)
-                with open(os.path.join('data', row[1], str(i) + '.txt'), 'wb') as f:
+                with open(os.path.join('data-10-b', row[1], str(i) + '.txt'), 'wb') as f:
                     f.write(news_content)
 
                 with open('ScrapedNews.txt', 'a') as f:
